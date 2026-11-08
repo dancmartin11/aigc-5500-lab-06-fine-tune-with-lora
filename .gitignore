@@ -1,0 +1,39 @@
+# Python environments
+.venv/
+venv/
+env/
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Downloaded model weights and checkpoints
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.onnx
+checkpoints/
+models/
+.cache/
+
+# Large generated files
+output/*
+!output/figures/
+output/figures/*
+!output/figures/.gitkeep
+
+# Local datasets
+data/
