@@ -1,10 +1,8 @@
-
 '''Reproducibility and environment utilities for Lab 06.'''
 
 import platform
 import random
 import torch
-
 
 def set_seed(seed: int) -> None:
     '''Set random seeds for reproducible experiments.'''
